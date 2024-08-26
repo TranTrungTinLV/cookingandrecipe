@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
       floatingActionButton: FloatingActionButton(backgroundColor: Colors.orange,onPressed: (){}, child: Icon(Icons.add,color: Colors.white,)),
       appBar: AppBar(
         titleSpacing: 30.0,
+        automaticallyImplyLeading: false,
         title: Text("Logo",style: TextStyle(fontWeight: FontWeight.w600),),
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.notifications)),

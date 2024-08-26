@@ -1,4 +1,5 @@
 import 'package:cookingandrecipe/screens/home.dart';
+import 'package:cookingandrecipe/screens/loginScreen.dart';
 import 'package:cookingandrecipe/screens/tab.dart';
 import 'package:cookingandrecipe/widget/card_items.dart';
 import 'package:flutter/material.dart';
@@ -38,7 +39,8 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
 
-      home: TabScreen(focusNode: _focusNode, isFocusColor: isFocusColor)
+      home: LoginScreen(focusNode: _focusNode, isFocusColor: isFocusColor,),
+      // TabScreen(focusNode: _focusNode, isFocusColor: isFocusColor)
     );
   }
 }
